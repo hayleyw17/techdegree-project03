@@ -178,9 +178,17 @@ form {
 }
 
 .contact-info {
-    display: flex;
     margin-top: 30px;    
 }
+
+.contact-fields {
+    display: flex;
+    align-items: center;
+}
+
+.contact-fields label {
+    width: 200px;
+ }
 
 .zip {
    max-width: 30%;
