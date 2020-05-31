@@ -182,16 +182,24 @@ form {
 }
 
 .contact-fields {
+    width: auto;
     display: flex;
     align-items: center;
 }
 
 .contact-fields label {
-    width: 200px;
+    width: 150px;
  }
 
 .zip input {
-   max-width: 30%;
+   max-width: 300px!important;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select {
+    width: 75%;
 }
 
 }
